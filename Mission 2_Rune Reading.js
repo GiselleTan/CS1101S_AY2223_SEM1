@@ -11,7 +11,9 @@ function fractal(pic, n) {
 
 // Test
 show(fractal(make_cross(rcross), 5));
-//Feedback: I see what you are doing but the question is not asking you to scale each of the columns to be equal length. For each recursion, the rune gets scaled down by a factor of 1/2. so there is no real need to use beside_frac.
+/*Feedback: I see what you are doing but the question is not asking you to scale each of the columns to be 
+equal length. For each recursion, the rune gets scaled down by a factor of 1/2. 
+so there is no real need to use beside_frac.*/
 
 
 //////////////////////////////////////////////////
